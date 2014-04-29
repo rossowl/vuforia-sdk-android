@@ -1,7 +1,7 @@
 /*==============================================================================
-Copyright (c) 2013 QUALCOMM Austria Research Center GmbH.
+Copyright (c) 2013 Qualcomm Connected Experiences, Inc.
 All Rights Reserved.
-Proprietary - QUALCOMM Austria Research Center GmbH.
+Proprietary - Qualcomm Connected Experiences, Inc.
 
 @file 
     TextTracker.h
@@ -38,6 +38,9 @@ public:
         REGIONOFINTEREST_UP_IS_6_HRS     = 3,
         REGIONOFINTEREST_UP_IS_9_HRS     = 4
     };
+
+    /// Returns the Tracker class' type
+    static Type getClassType();
 
     /// Defines the area of the image where text can be detected and tracked.
     /**

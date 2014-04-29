@@ -1,7 +1,7 @@
 /*==============================================================================
-Copyright (c) 2010-2013 QUALCOMM Austria Research Center GmbH.
+Copyright (c) 2010-2013 Qualcomm Connected Experiences, Inc.
 All Rights Reserved.
-Proprietary - QUALCOMM Austria Research Center GmbH.
+Proprietary - Qualcomm Connected Experiences, Inc.
 
 @file 
     TrackerManager.h
@@ -22,7 +22,7 @@ namespace QCAR
 /// TrackerManager class.
 /**
  *  The TrackerManager singleton provides methods for accessing the trackers
- *  available in QCAR as well as initializing specific trackers required by the
+ *  available in Vuforia as well as initializing specific trackers required by the
  *  application. See the Tracker base class for a list of available tracker
  *  types.
  */
@@ -39,7 +39,7 @@ public:
      *  tracker of the given type has already been initialized or if the
      *  CameraDevice is currently initialized.
      */
-    virtual Tracker* initTracker(Tracker::TYPE type) = 0;
+    virtual Tracker* initTracker(Type type) = 0;
 
     /// Returns the instance of the given tracker type
     /**
@@ -47,7 +47,7 @@ public:
      *  This function will return NULL if the tracker of the given type has
      *  not been initialized.
      */
-    virtual Tracker* getTracker(Tracker::TYPE type) = 0;
+    virtual Tracker* getTracker(Type type) = 0;
 
     /// Deinitializes the tracker of the given type
     /**
@@ -58,10 +58,7 @@ public:
      *  tracker of the given type has not been initialized or if the
      *  CameraDevice is currently initialized.
      */
-    virtual bool deinitTracker(Tracker::TYPE type) = 0;
-
-//protected:
-//    virtual ~TrackerManager() {}
+    virtual bool deinitTracker(Type type) = 0;
 };
 
 } // namespace QCAR

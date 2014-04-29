@@ -1,7 +1,7 @@
 /*==============================================================================
-Copyright (c) 2010-2013 QUALCOMM Austria Research Center GmbH.
+Copyright (c) 2010-2013 Qualcomm Connected Experiences, Inc.
 All Rights Reserved.
-Proprietary - QUALCOMM Austria Research Center GmbH.
+Proprietary - Qualcomm Connected Experiences, Inc.
 
 @file 
     Renderer.h
@@ -70,7 +70,7 @@ public:
     virtual const VideoBackgroundTextureInfo& 
                                       getVideoBackgroundTextureInfo() = 0;
 
-    /// Tells QCAR where the texture id to use for updating video
+    /// Tells Vuforia where the texture id to use for updating video
     /// background data
     virtual bool setVideoBackgroundTextureID(int textureID) = 0;
 

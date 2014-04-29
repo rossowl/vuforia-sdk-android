@@ -1,7 +1,7 @@
 /*==============================================================================
-Copyright (c) 2013 QUALCOMM Austria Research Center GmbH.
+Copyright (c) 2013 Qualcomm Connected Experiences, Inc.
 All Rights Reserved.
-Proprietary - QUALCOMM Austria Research Center GmbH.
+Proprietary - Qualcomm Connected Experiences, Inc.
 
 @file 
     WordResult.h
@@ -25,14 +25,16 @@ class QCAR_API WordResult : public TrackableResult
 {
 public:
 
+    /// Returns the TrackableResult class' type
+    static Type getClassType();
+
     /// Returns the corresponding Trackable that this result represents.
     virtual const Word& getTrackable() const = 0;
 
     /// Returns the oriented bounding box in image space of the word.
     virtual const Obb2D& getObb() const = 0;
-
 };
-
+    
 } // namespace QCAR
 
 #endif //_QCAR_WORDRESULT_H_

@@ -1,13 +1,13 @@
-Vuforia SDK v2.6.10 
-Qualcomm Austria Research Center GmbH
+Vuforia SDK v2.8.7 
+Qualcomm Connected Experiences, Inc
 =============================================================
 
 This Readme file contains certain notices of software components
-included with the Vuforia SDK v2.6.10  that
-Qualcomm Austria is required to provide you. Notwithstanding anything in the
+included with the Vuforia SDK v2.8.7  that
+Qualcomm Connected Experiences is required to provide you. Notwithstanding anything in the
 notices in this file, your use of these software components together
 with the Vuforia SDK is subject to the terms of your license from
-Qualcomm Austria.  Compliance with all copyright laws and software license
+Qualcomm Connected Experiences.  Compliance with all copyright laws and software license
 agreements included in the notice section of this file are the
 responsibility of the user.  Except as may be granted by separate
 express written agreement, this file provides no license to any
@@ -16,7 +16,7 @@ property of QUALCOMM Incorporated or its affiliates.
 
 Software provided with this notice is NOT A CONTRIBUTION to any Open Source project.
 
-Copyright (c) 2012-2013 QUALCOMM Austria Research Center GmbH.  
+Copyright (c) 2012-2013 Qualcomm Connected Experiences, Inc.  
 All rights reserved.
 
 Qualcomm is a trademark of QUALCOMM Incorporated, registered in 
@@ -1307,3 +1307,117 @@ and conditions.
  products or services of Licensee, or any third party.
 8.	By copying, installing or otherwise using Python 2.7.5, Licensee agrees to be bound by the 
 terms and conditions of this License Agreement.
+
+---------------------------------------------
+STLport
+---------------------------------------------
+Boris Fomitchev grants Licensee a non-exclusive, non-transferable, royalty-free license to use STLport and its documentation without fee.
+
+By downloading, using, or copying STLport or any portion thereof,  Licensee agrees to abide by the intellectual property laws and all other applicable laws of the United States of America, and to all of the terms and conditions of this Agreement.
+
+Licensee shall maintain the following copyright and permission  notices on STLport sources and its documentation unchanged :
+
+Copyright 1999,2000 Boris Fomitchev
+
+This material is provided "as is", with absolutely no warranty expressed or implied. Any use is at your own risk.
+Permission to use or copy this software for any purpose is hereby granted without fee, provided the above notices are retained on all copies. Permission to modify the code and to distribute modified code is granted, provided the above notices are retained, and a notice that the code was modified is included with the above copyright notice.
+The Licensee may distribute binaries compiled with STLport (whether original or modified) without any royalties or restrictions.
+
+The Licensee may distribute original or modified STLport sources, provided that:
+
+The conditions indicated in the above permission notice are met;
+The following copyright notices are retained when present, and conditions provided in accompanying permission notices are met :
+Copyright 1994 Hewlett-Packard Company
+
+Copyright 1996,97 Silicon Graphics Computer Systems, Inc.
+
+Copyright 1997 Moscow Center for SPARC Technology.
+
+Permission to use, copy, modify, distribute and sell this software and its documentation for any purpose is hereby granted without fee, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation. Hewlett-Packard Company makes no representations about the suitability of this software for any purpose. It is provided "as is" without express or implied warranty.
+
+Permission to use, copy, modify, distribute and sell this software and its documentation for any purpose is hereby granted without fee, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation. Silicon Graphics makes no representations about the suitability of this software for any purpose. It is provided "as is" without express or implied warranty.
+
+Permission to use, copy, modify, distribute and sell this software and its documentation for any purpose is hereby granted without fee, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation. Moscow Center for SPARC Technology  makes no representations about the suitability of this software for any purpose. It is provided "as is" without express or implied warranty.
+
+---------------------------------------------
+CPU-Features
+---------------------------------------------
+Code downloaded from “http://developer.android.com/sdk/ndk/index.html”. Licensing information taken from header file “sources/android/cpufeatures/cpu-features.h”
+/*
+ * Copyright (C) 2010 The Android Open Source Project
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *  * Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ *  * Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in
+ *    the documentation and/or other materials provided with the
+ *    distribution.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+ * COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+ * OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
+ * OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+	 */
+---------------------------------------------     
+libGLES
+---------------------------------------------
+Copyright (C) [dates of first publication] Silicon Graphics, Inc. All Rights Reserved.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice including the dates of first publication and either this permission notice or a reference to http://oss.sgi.com/projects/FreeB/ shall be included in all copies or substantial portions of the Software. 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL SILICON GRAPHICS, INC. BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+	Except as contained in this notice, the name of Silicon Graphics, Inc. shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from Silicon Graphics, Inc.
+
+---------------------------------------------     
+Qhull
+---------------------------------------------     
+Qhull, Copyright (c) 1993-2012
+
+C.B. Barber
+Arlington, MA 
+
+and
+
+The National Science and Technology Research Center for
+Computation and Visualization of Geometric Structures
+(The Geometry Center)
+University of Minnesota
+
+email: qhull@qhull.org
+
+This software includes Qhull from C.B. Barber and The Geometry Center.  
+Qhull is copyrighted as noted above.  Qhull is free software and may 
+be obtained via http from www.qhull.org.  It may be freely copied, modified, 
+and redistributed under the following conditions:
+
+1. All copyright notices must remain intact in all files.
+
+2. A copy of this text file must be distributed along with any copies 
+of Qhull that you redistribute; this includes copies that you have 
+modified, or copies of programs or other software products that 
+include Qhull.
+
+3. If you modify Qhull, you must include a notice giving the
+name of the person performing the modification, the date of
+modification, and the reason for such modification.
+
+4. When distributing modified versions of Qhull, or other software 
+products that include Qhull, you must provide notice that the original 
+source code may be obtained as noted above.
+
+5. There is no warranty or other guarantee of fitness for Qhull, it is 
+provided solely "as is".  Bug reports or fixes may be sent to 
+qhull_bug@qhull.org; the authors may or may not act on them as 
+they desire.
+

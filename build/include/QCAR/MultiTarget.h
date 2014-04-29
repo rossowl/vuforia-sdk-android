@@ -1,7 +1,7 @@
 /*==============================================================================
-Copyright (c) 2010-2013 QUALCOMM Austria Research Center GmbH.
+Copyright (c) 2010-2013 Qualcomm Connected Experiences, Inc.
 All Rights Reserved.
-Proprietary - QUALCOMM Austria Research Center GmbH.
+Proprietary - Qualcomm Connected Experiences, Inc.
 
 @file 
     MultiTarget.h
@@ -32,6 +32,9 @@ struct Matrix34F;
 class QCAR_API MultiTarget : public Trackable
 {
 public:
+
+    /// Returns the Trackable class' type
+    static Type getClassType();
 
     /// Returns the number of Trackables that form the MultiTarget.
     virtual int getNumParts() const = 0;

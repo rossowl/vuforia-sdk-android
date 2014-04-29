@@ -1,7 +1,7 @@
 /*==============================================================================
-Copyright (c) 2013 QUALCOMM Austria Research Center GmbH.
+Copyright (c) 2013 Qualcomm Connected Experiences, Inc.
 All Rights Reserved.
-Proprietary - QUALCOMM Austria Research Center GmbH.
+Proprietary - Qualcomm Connected Experiences, Inc.
 
 @file 
     CylinderTarget.h
@@ -29,7 +29,10 @@ namespace QCAR
 class QCAR_API CylinderTarget : public Trackable
 {
 public:
-        
+
+    /// Returns the Trackable class' type
+    static Type getClassType();
+
     /// Returns the side length of the cylinder target (in 3D scene units).
     virtual float getSideLength() const = 0;
 
@@ -60,13 +63,12 @@ public:
     /// Returns the system-wide unique id of the target.
     /**
      *  The target id uniquely identifies an CylinderTarget across multiple
-     *  QCAR sessions. The system wide unique id may be generated off-line.
+     *  Vuforia sessions. The system wide unique id may be generated off-line.
      *  This is opposed to the function getId() which is a dynamically
      *  generated id and which uniquely identifies a Trackable within one run
-     *  of QCAR only.
+     *  of Vuforia only.
      */
     virtual const char* getUniqueTargetId() const = 0;
-
 };
 
 } // namespace QCAR

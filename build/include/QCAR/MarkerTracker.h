@@ -1,7 +1,7 @@
 /*==============================================================================
-Copyright (c) 2010-2013 QUALCOMM Austria Research Center GmbH.
+Copyright (c) 2010-2013 Qualcomm Connected Experiences, Inc.
 All Rights Reserved.
-Proprietary - QUALCOMM Austria Research Center GmbH.
+Proprietary - Qualcomm Connected Experiences, Inc.
 
 @file 
     MarkerTracker.h
@@ -36,6 +36,9 @@ class Marker;
 class QCAR_API MarkerTracker : public Tracker
 {
 public:
+
+    /// Returns the Tracker class' type
+    static Type getClassType();
 
     /// Creates a new Marker
     /**

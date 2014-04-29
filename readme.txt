@@ -26,7 +26,7 @@ To view the release notes, go to https://developer.vuforia.com/resources/sdk
 
 
 /*============================================================================
-            Copyright (c) 2010-2013 QUALCOMM Austria Research Center GmbH.
+            Copyright (c) 2010-2013 Qualcomm Connected Experiences, Inc.
             All Rights Reserved.
-         Confidential and Proprietary - QUALCOMM Austria Research Center GmbH.
+         Confidential and Proprietary - Qualcomm Connected Experiences, Inc.
   ============================================================================*/

@@ -1,7 +1,7 @@
 /*==============================================================================
-Copyright (c) 2010-2013 QUALCOMM Austria Research Center GmbH.
+Copyright (c) 2010-2013 Qualcomm Connected Experiences, Inc.
 All Rights Reserved.
-Proprietary - QUALCOMM Austria Research Center GmbH.
+Proprietary - Qualcomm Connected Experiences, Inc.
 
 @file 
     ImageTracker.h
@@ -41,6 +41,9 @@ class TargetFinder;
 class QCAR_API ImageTracker : public Tracker
 {
 public:
+
+    /// Returns the Tracker class' type
+    static Type getClassType();
 
     /// Factory function for creating an empty dataset.
     /**
@@ -88,6 +91,25 @@ public:
     /// Returns instance of TargetFinder to be used for retrieving
     /// targets by cloud-based recognition.
     virtual TargetFinder* getTargetFinder() = 0;
+
+    ///  Persist/Reset Extended Tracking
+    /**
+     *  In persistent Extended Tracking mode, the environment map will only
+     *  ever be reset when the developer calls resetExtendedTracking().
+     *  This function will return true if persistent Extended Tracking
+     *  was set successfully (or was already set to the specified value)
+     *  and false otherwise.
+     */
+    virtual bool persistExtendedTracking(bool on) = 0;
+ 
+    /// Resets environment map for Extended Tracking
+    /**
+     *  Environment map can only be reset by the developer if persistent
+     *  extended tracking is enabled.
+     *  This function will return true if environment map was reset
+     *  successfully and false otherwise.
+     */
+    virtual bool resetExtendedTracking() = 0;
 
 };
 

@@ -1,7 +1,7 @@
 /*==============================================================================
-Copyright (c) 2012-2013 QUALCOMM Austria Research Center GmbH.
+Copyright (c) 2012-2013 Qualcomm Connected Experiences, Inc.
 All Rights Reserved.
-Proprietary - QUALCOMM Austria Research Center GmbH.
+Proprietary - Qualcomm Connected Experiences, Inc.
 
 @file 
     ImageTargetResult.h
@@ -26,6 +26,9 @@ class VirtualButtonResult;
 class QCAR_API ImageTargetResult : public TrackableResult
 {
 public:
+
+    /// Returns the TrackableResult class' type
+    static Type getClassType();
 
     /// Returns the corresponding Trackable that this result represents
     virtual const ImageTarget& getTrackable() const = 0;

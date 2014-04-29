@@ -1,7 +1,7 @@
 /*==============================================================================
-Copyright (c) 2013 QUALCOMM Austria Research Center GmbH.
+Copyright (c) 2013 Qualcomm Connected Experiences, Inc.
 All Rights Reserved.
-Proprietary - QUALCOMM Austria Research Center GmbH.
+Proprietary - Qualcomm Connected Experiences, Inc.
 
 @file 
     Word.h
@@ -26,6 +26,8 @@ namespace QCAR
 class QCAR_API Word : public Trackable
 {
 public:
+    /// Returns the Trackable class' type
+    static Type getClassType();
 
     /// Returns the Unicode character string for this word.
     virtual const UInt16* getStringU() const = 0;
